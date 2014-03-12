@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_user_name_value"
+        android:key="@string/pref_user_name_key"
+        android:summary="@string/pref_user_name_summary"
+        android:title="@string/pref_user_name_title" />
+    <EditTextPreference
+        android:defaultValue="@string/pref_field_size_value"
+        android:inputType="number"
+        android:key="@string/pref_field_size_key"
+        android:summary="@string/pref_field_size_summary"
+        android:title="@string/pref_field_size_title" />
+    <EditTextPreference
+        android:defaultValue="@string/pref_num_check_signs_value"
+        android:inputType="number"
+        android:key="@string/pref_num_check_signs_key"
+        android:summary="@string/pref_num_check_signs_summary"
+        android:title="@string/pref_num_check_signs_title" />
+    <EditTextPreference
+        android:defaultValue="@string/pref_win_count_value"
+        android:inputType="number"
+        android:key="@string/pref_win_count_key"
+        android:summary="@string/pref_win_count_summary"
+        android:title="@string/pref_win_count_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/pref_sound_key"
+        android:summaryOff="@string/pref_sound_summOff"
+        android:summaryOn="@string/pref_sound_summOn"
+        android:title="@string/pref_sound_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:disableDependentsState="true"
+        android:key="@string/pref_toast_key"
+        android:summaryOff="@string/pref_toast_summOff"
+        android:summaryOn="@string/pref_toast_summOn"
+        android:title="@string/pref_toast_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:disableDependentsState="true"
+        android:key="@string/pref_splash_screen_key"
+        android:summaryOff="@string/pref_splash_screen_summOff"
+        android:summaryOn="@string/pref_splash_screen_summOn"
+        android:title="@string/pref_splash_screen_title" />
+
+</PreferenceScreen>

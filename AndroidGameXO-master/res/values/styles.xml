@@ -1,0 +1,23 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+    <style name="AppBaseTheme" parent="@android:style/Theme.Black"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="tv_GameInfo">
+        <item name="android:text">@string/screen_info_game</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/activity_margin</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">@dimen/text_size_btn_important</item>
+    </style>
+
+</resources>

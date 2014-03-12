@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GameXO</string>
+
+    <!-- For Intent.putExtra(String name, Some value) -->
+    <string name="put_extra_enemy">Enemy</string>
+
+    <!-- Button -->
+    <string name="btn_game_vs_human">Game vs Human</string>
+    <string name="btn_game_vs_bot">Game vs Bot</string>
+    <string name="btn_game_remote">Remote Game</string>
+    <string name="btn_game_vs_bluetooth">Game vs Bluetooth</string>
+    <string name="btn_game_vs_inet">Game vs Inet</string>
+    <string name="btn_prefs">Preferences</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_start">Start Game</string>
+    <string name="btn_statistic">Statistic</string>
+    <string name="btn_about">About developers</string>
+    <string name="btn_about_mood_dislike">I dislike</string>
+    <string name="btn_about_mood_sad">I\&apos;m sad</string>
+    <string name="btn_about_mood_like">I like</string>
+
+    <!-- Toast -->
+    <string name="toast_nothing_happens">Nothing happens!</string>
+    <string name="toast_something_wrong">Something wrong has happened:(</string>
+
+    <!-- Screen Text -->
+    <string name="screen_hi">Hi,</string>
+    <string name="screen_hi_user">Hi, User!</string>
+    <string name="screen_vs">vs</string>
+    <string name="screen_vs_user">UserName</string>
+    <string name="screen_vs_remote">RemotePlayer</string>
+    <string name="screen_vs_bot">BotPlayer</string>
+    <string name="screen_vs_human">HumanPlayer</string>
+    <string name="screen_game_count">0</string>
+    <string name="screen_level_difficulty">Level of difficulty</string>
+    <string name="screen_level">Level:</string>
+    <string name="screen_easy">BForce</string>
+    <string name="screen_middle">MinMax</string>
+    <string name="screen_hard">Gardner</string>
+    <string name="screen_connection_mode">Connection mode:</string>
+    <string name="screen_bluetooth">Bluetooth</string>
+    <string name="screen_inet">Internet</string>
+    <string name="screen_info_game">Some Info</string>
+    <string name="screen_info_game_options">GAME OPTIONS:</string>
+    <string name="screen_info_game_to">Game to</string>
+    <string name="screen_info_game_to_wins">wins</string>
+    <string name="screen_info_field_size">Field size =</string>
+    <string name="screen_info_checked_signs">Winning line =</string>
+    <string name="screen_info_checked_signs_signs">signs</string>
+    <string name="screen_game_result">COMPETITION IS OVER!</string>
+    <string name="screen_game_result_is_winner">is Winner!</string>
+     <string name="screen_online_only">*** online only ***</string>
+
+    <!-- Preferences -->
+    <!-- CheckBox -->
+    <string name="pref_sound_key">Sound key</string>
+    <string name="pref_sound_title">Sound</string>
+    <string name="pref_sound_summOn">Sound ON</string>
+    <string name="pref_sound_summOff">Sound OFF</string>
+    <string name="pref_toast_key">Toast key</string>
+    <string name="pref_toast_title">Toast</string>
+    <string name="pref_toast_summOn">Toast show ON</string>
+    <string name="pref_toast_summOff">Toast show OFF</string>
+    <string name="pref_splash_screen_key">Splash screen key</string>
+    <string name="pref_splash_screen_title">Splash screen</string>
+    <string name="pref_splash_screen_summOn">Splash screen ON</string>
+    <string name="pref_splash_screen_summOff">Splash screen OFF</string>
+    <!-- Set Text Fields -->
+    <string name="pref_user_name_key">User name key</string>
+    <string name="pref_user_name_value">User</string>
+    <string name="pref_user_name_summary">Set your name</string>
+    <string name="pref_user_name_title">Your name</string>
+    <string name="pref_field_size_key">Field size key</string>
+    <string name="pref_field_size_value">3</string>
+    <string name="pref_field_size_summary">Set field size</string>
+    <string name="pref_field_size_title">Field size</string>
+    <string name="pref_num_check_signs_key">Num check signs key</string>
+    <string name="pref_num_check_signs_value">3</string>
+    <string name="pref_num_check_signs_summary">Set number</string>
+    <string name="pref_num_check_signs_title">Number of checked signs</string>
+    <string name="pref_win_count_key">Win count key</string>
+    <string name="pref_win_count_value">3</string>
+    <string name="pref_win_count_summary">Set the number of wins</string>
+    <string name="pref_win_count_title">Number of wins in game</string>
+
+    <!-- Content Descriptions -->
+    <string name="descript">Description</string>
+
+    <!-- Lorem Ipsum -->
+    <string name="lorem_ipsum">Dream team consist of:\n\n       
+kolega69 (Konyachenko Oleg)\n- AI Gardner\n\n
+AndrewYa \n- AI Minimax\n\n
+GlaZier (Khokhlushin Mikhail)\n- AI Minimax\n\n
+Andrew2212\n- AI BrutForce\n- architecture\n- GUI</string>
+
+</resources>

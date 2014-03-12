@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RemoteActivity" >
+
+            <Button
+                android:id="@+id/btn_RemoteBluetooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentStart="false"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="95dp"
+                android:minHeight="@dimen/btn_height_important"
+                android:text="@string/btn_game_vs_bluetooth"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/text_size_btn_important" />
+
+            <Button
+                android:id="@+id/btn_RemoteInet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentStart="false"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/activity_padding_for_space"
+                android:layout_marginBottom="43dp"
+                android:minHeight="@dimen/btn_height_important"
+                android:text="@string/btn_game_vs_inet"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/text_size_btn_important" />
+
+</RelativeLayout>

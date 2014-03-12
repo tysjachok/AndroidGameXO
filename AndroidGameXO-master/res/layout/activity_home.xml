@@ -1,0 +1,93 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin"
+        android:paddingBottom="@dimen/activity_padding_for_space"
+        tools:context=".HomeActivity" >
+
+        <TextView
+            android:id="@+id/tv_HomeHiUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/screen_hi_user"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size_hi_user" />
+
+        <ImageView
+            android:id="@+id/img_HomePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:contentDescription="@string/descript"
+            android:src="@drawable/olderman" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_padding_for_space"
+            android:paddingTop="@dimen/activity_padding_for_space" >
+
+            <Button
+                android:id="@+id/btn_HomeGameVsHuman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_padding_for_space"
+                android:minHeight="@dimen/btn_height_important"
+                android:text="@string/btn_game_vs_human"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/text_size_btn_important" />
+
+            <Button
+                android:id="@+id/btn_HomeGameVsBot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_padding_for_space"
+                android:minHeight="@dimen/btn_height_important"
+                android:text="@string/btn_game_vs_bot"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/text_size_btn_important" />
+
+            <Button
+                android:id="@+id/btn_HomeGameRemote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/btn_height_important"
+                android:text="@string/btn_game_remote"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/text_size_btn_important"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_HomeStatistic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_statistic"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_HomePrefs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_prefs" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_HomeAnim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/descript" />
+
+</merge>

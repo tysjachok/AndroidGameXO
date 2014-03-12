@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    android:paddingBottom="@dimen/activity_padding_for_space"
+    tools:context=".AboutActivity" >
+
+    <TextView
+        android:id="@+id/tv_AboutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/btn_about"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/text_size_btn_important" />
+
+    <ImageView
+        android:id="@+id/iv_About"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/descript"
+        android:src="@drawable/man_about" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/activity_margin"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/lorem_ipsum" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/activity_margin" >
+
+        <TextView
+            android:id="@+id/tv_aboutInetString"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/screen_online_only"
+            android:textColor="@color/orange" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_AboutDislike"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_about_mood_dislike"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_AboutSad"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_about_mood_sad"
+                android:textColor="@color/blue" />
+
+            <Button
+                android:id="@+id/btn_AboutLike"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_about_mood_like"
+                android:textColor="@color/green" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

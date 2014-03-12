@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins 'int' for java code -->
+    <integer name="activity_margins_int">8</integer>
+    <!-- Default screen margins 'dp' for xml -->
+    <dimen name="activity_margin">8dp</dimen>
+
+    <!-- Dimens for activity formatting -->
+    <dimen name="activity_padding_for_space">12dp</dimen>
+    <dimen name="text_size_hi_user">24sp</dimen>
+    <dimen name="text_size_btn_important">20sp</dimen>
+    <dimen name="btn_height_important">58dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Dimens for java code -->
+    <integer name="delay_bot_message">1200</integer>
+    <integer name="line_field_stroke_width">2</integer>
+    <integer name="line_win_stroke_width">8</integer>
+    <integer name="cell_size_min">48</integer>
+
+</resources>
