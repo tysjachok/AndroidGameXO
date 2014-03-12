@@ -11,11 +11,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ListView;
 
-/**
- * 
- * @author Andrew2212
- * 
- */
+
 public class PrefsActivity extends PreferenceActivity implements
 		OnClickListener {
 
